@@ -46,6 +46,7 @@ checkName$NameRM2 = checkName$NameRM
 checkName$Name = paste(substring(checkName$Name,regexpr(' ',checkName$Name)+1), substr(checkName$Name,1,regexpr(' ',checkName$Name)-1), sep=' ')
 checkName = addNameRM(checkName)
 
+
 # Deal with Teams ---------------------------------------------------------
 df$Team = ifelse(grepl(' \\(',df$Team),substr(df$Team,1,regexpr(' \\(',df$Team)-2),df$Team)
 df$Team = ifelse(grepl('Released by',df$Team),'',df$Team)
@@ -119,8 +120,23 @@ df$Overall = as.integer(df$Overall)
 mad = df
 mad = addNameRM(mad)
 
-mad$Rank = ave(-mad$Overall, mad$Team, mad$Position, mad$Week, mad$Year, FUN=function(x) rank(x, ties.method="random"))
 table(mad$Week, mad$Rank)
+
+
+mad2=mad[,c('Year','Week','Key','Overall')]
+mad2$row = 1:length(mad2$Key)
+mad2 = mad2[order(mad2$Year,mad2$Week,mad2$Key,-mad2$Overall),]
+str(mad2)
+for (i in length(mad2$row):2) {
+  if (paste0( mad2$Year[i],mad2$Week[i], mad2$Key[i] )
+      == paste0( mad2$Year[i-1],mad2$Week[i-1], mad2$Key[i-1] ) 
+      & mad2$Overall[i] <= mad2$Overall[i-1] ) { mad2 = mad2[-i,] }
+}
+str(mad2)
+
+mad = mad[mad2$row,]
+mad$Rank = ave(-mad$Overall, mad$Team, mad$Position, mad$Week, mad$Year, FUN=function(x) rank(x, ties.method="random"))
+mad$Depth = paste0(mad$Position,mad$Rank)
 
 a.needs = data.frame(position=c('QB','WR','RB','OL','TE','DL','LB','CB','FS','SS','K'), need=c(1,3,2,5,1,4,3,3,1,1,1), stringsAsFactors = FALSE)
 teams = data.frame(Opponent=as.character(unique(mad$Team)), stringsAsFactors=FALSE)
@@ -182,6 +198,7 @@ for (i in 1:length(a.needs$position)) {
 
 freq = ddply(mad, .(Key), summarize, freq=length(Key))
 write.csv(merge(mad,freq,by='Key'),'mad2.csv')
+
 save(mad,file='mad_backup.Rda')
 save(teams,file='teams_backup.Rda')
 

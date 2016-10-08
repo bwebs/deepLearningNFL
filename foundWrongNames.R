@@ -37,6 +37,9 @@ save(df,file='scrapeAllPlayers1415.Rda')
 #load('scrapeAllPlayers1415.Rda')
 nameChecker = df
 nameChecker$Name = substr(nameChecker$Player, 1, regexpr('\r\n',nameChecker$Player)-1)
+nameChecker$Name = paste0(
+  substring(nameChecker$Name,regexpr(', ',nameChecker$Name)+2)
+  ,' ',substr(nameChecker$Name,1,regexpr(',',nameChecker$Name)-1))
 names(nameChecker)[3] = 'Position'
 nameChecker = convertPositions(nameChecker)
 nameChecker = addNameRM(nameChecker)

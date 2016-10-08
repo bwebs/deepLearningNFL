@@ -1,0 +1,447 @@
+  |                                                                                                  |                                                                                          |   0%  |                                                                                                  |=                                                                                         |   1%  |                                                                                                  |==                                                                                        |   2%  |                                                                                                  |===                                                                                       |   3%  |                                                                                                  |====                                                                                      |   5%  |                                                                                                  |=====                                                                                     |   6%  |                                                                                                  |======                                                                                    |   7%  |                                                                                                  |=======                                                                                   |   8%  |                                                                                                  |========                                                                                  |   9%  |                                                                                                  |=========                                                                                 |  10%  |                                                                                                  |==========                                                                                |  11%  |                                                                                                  |===========                                                                               |  12%  |                                                                                                  |============                                                                              |  13%  |                                                                                                  |============                                                                              |  14%  |                                                                                                  |=============                                                                             |  15%  |                                                                                                  |==============                                                                            |  16%  |                                                                                                  |================                                                                          |  17%  |                                                                                                  |=================                                                                         |  18%  |                                                                                                  |=================                                                                         |  19%  |                                                                                                  |==================                                                                        |  20%  |                                                                                                  |====================                                                                      |  22%  |                                                                                                  |====================                                                                      |  23%  |                                                                                                  |=====================                                                                     |  24%  |                                                                                                  |======================                                                                    |  25%  |                                                                                                  |=======================                                                                   |  25%  |                                                                                                  |========================                                                                  |  26%  |                                                                                                  |========================                                                                  |  27%  |                                                                                                  |=========================                                                                 |  28%  |                                                                                                  |==========================                                                                |  29%  |                                                                                                  |============================                                                              |  31%  |                                                                                                  |=============================                                                             |  32%  |                                                                                                  |==============================                                                            |  33%  |                                                                                                  |===============================                                                           |  34%  |                                                                                                  |================================                                                          |  35%  |                                                                                                  |=================================                                                         |  36%  |                                                                                                  |==================================                                                        |  37%  |                                                                                                  |==================================                                                        |  38%  |                                                                                                  |===================================                                                       |  39%  |                                                                                                  |====================================                                                      |  40%  |                                                                                                  |=====================================                                                     |  41%  |                                                                                                  |======================================                                                    |  43%  |                                                                                                  |========================================                                                  |  44%  |                                                                                                  |=========================================                                                 |  45%  |                                                                                                  |==========================================                                                |  46%  |                                                                                                  |===========================================                                               |  47%  |                                                                                                  |============================================                                              |  49%  |                                                                                                  |=============================================                                             |  50%  |                                                                                                  |==============================================                                            |  51%  |                                                                                                  |===============================================                                           |  52%  |                                                                                                  |===============================================                                           |  53%  |                                                                                                  |================================================                                          |  54%  |                                                                                                  |=================================================                                         |  54%  |                                                                                                  |==================================================                                        |  56%  |                                                                                                  |===================================================                                       |  57%  |                                                                                                  |====================================================                                      |  58%  |                                                                                                  |=====================================================                                     |  59%  |                                                                                                  |======================================================                                    |  60%  |                                                                                                  |=======================================================                                   |  61%  |                                                                                                  |========================================================                                  |  62%  |                                                                                                  |=========================================================                                 |  63%  |                                                                                                  |=========================================================                                 |  64%  |                                                                                                  |==========================================================                                |  65%  |                                                                                                  |===========================================================                               |  65%  |                                                                                                  |===========================================================                               |  66%  |                                                                                                  |============================================================                              |  67%  |                                                                                                  |=============================================================                             |  68%  |                                                                                                  |==============================================================                            |  69%  |                                                                                                  |===============================================================                           |  70%  |                                                                                                  |================================================================                          |  71%  |                                                                                                  |=================================================================                         |  72%  |                                                                                                  |==================================================================                        |  73%  |                                                                                                  |===================================================================                       |  74%  |                                                                                                  |===================================================================                       |  75%  |                                                                                                  |====================================================================                      |  76%  |                                                                                                  |=====================================================================                     |  77%  |                                                                                                  |======================================================================                    |  78%  |                                                                                                  |=======================================================================                   |  78%  |                                                                                                  |=======================================================================                   |  79%  |                                                                                                  |========================================================================                  |  80%  |                                                                                                  |=========================================================================                 |  81%  |                                                                                                  |==========================================================================                |  82%  |                                                                                                  |===========================================================================               |  84%  |                                                                                                  |=============================================================================             |  85%  |                                                                                                  |==============================================================================            |  86%  |                                                                                                  |===============================================================================           |  87%  |                                                                                                  |===============================================================================           |  88%  |                                                                                                  |================================================================================          |  89%  |                                                                                                  |=================================================================================         |  90%  |                                                                                                  |==================================================================================        |  91%  |                                                                                                  |===================================================================================       |  92%  |                                                                                                  |===================================================================================       |  93%  |                                                                                                  |====================================================================================      |  93%  |                                                                                                  |=====================================================================================     |  94%  |                                                                                                  |======================================================================================    |  95%  |                                                                                                  |=======================================================================================   |  96%  |                                                                                                  |========================================================================================  |  97%  |                                                                                                  |========================================================================================= |  99%  |                                                                                                  |==========================================================================================| 100%
+H2O Grid Details
+================
+
+Grid ID: dl_gridK 
+Used hyper parameters: 
+  -  activation 
+  -  epochs 
+  -  hidden 
+  -  input_dropout_ratio 
+  -  rate 
+  -  rate_annealing 
+Number of models: 96 
+Number of failed models: 0 
+
+Hyper-Parameter Search Summary: ordered by increasing rmse
+            activation             epochs      hidden input_dropout_ratio rate rate_annealing
+1 RectifierWithDropout 10.425930754912446 [I@59135210                 0.0 0.02         1.0E-8
+2      TanhWithDropout  10.49991453296921 [I@3b8254e8                 0.0 0.01         1.0E-6
+3      TanhWithDropout  10.40673221631298 [I@52851391                0.05 0.01         1.0E-8
+4 RectifierWithDropout 10.400801684670482 [I@3078331d                 0.0 0.01         1.0E-8
+5 RectifierWithDropout  10.39650200760156 [I@73b874d0                 0.0 0.01         1.0E-6
+          model_ids               rmse
+1 dl_gridK_model_34  3.751220910250915
+2 dl_gridK_model_59 3.7768864999471714
+3 dl_gridK_model_23  3.782518987758425
+4 dl_gridK_model_10 3.7883609570177117
+5 dl_gridK_model_58  3.791563719530126
+
+---
+   activation             epochs      hidden input_dropout_ratio rate rate_annealing
+91  Rectifier 10.428187065294079 [I@20dc8327                0.05 0.01         1.0E-8
+92       Tanh 10.395160077083032 [I@61910bec                 0.0 0.02         1.0E-8
+93       Tanh 10.376255187475088 [I@5d61f6a3                 0.0 0.02         1.0E-8
+94       Tanh 10.503103223066638 [I@7d749e88                0.05 0.02         1.0E-8
+95       Tanh 10.410923032260206 [I@39f5ffba                0.05 0.02         1.0E-6
+96       Tanh 10.402352130800043 [I@50d24d03                 0.0 0.02         1.0E-6
+           model_ids               rmse
+91 dl_gridK_model_16  4.391839988227615
+92 dl_gridK_model_25 4.4547742850795435
+93 dl_gridK_model_29  4.612482177731919
+94 dl_gridK_model_41  4.638604537149304
+95 dl_gridK_model_89  4.791722281554559
+96 dl_gridK_model_77  4.878824212874285
+H2O Grid Summary
+================
+
+Grid ID: dl_gridK 
+Used hyper parameters: 
+  -  activation 
+  -  epochs 
+  -  hidden 
+  -  input_dropout_ratio 
+  -  rate 
+  -  rate_annealing 
+Number of models: 96 
+  -  dl_gridK_model_34 
+  -  dl_gridK_model_59 
+  -  dl_gridK_model_23 
+  -  dl_gridK_model_10 
+  -  dl_gridK_model_58 
+  -  dl_gridK_model_46 
+  -  dl_gridK_model_51 
+  -  dl_gridK_model_71 
+  -  dl_gridK_model_22 
+  -  dl_gridK_model_63 
+  -  dl_gridK_model_3 
+  -  dl_gridK_model_35 
+  -  dl_gridK_model_47 
+  -  dl_gridK_model_67 
+  -  dl_gridK_model_82 
+  -  dl_gridK_model_94 
+  -  dl_gridK_model_44 
+  -  dl_gridK_model_32 
+  -  dl_gridK_model_26 
+  -  dl_gridK_model_80 
+  -  dl_gridK_model_62 
+  -  dl_gridK_model_86 
+  -  dl_gridK_model_70 
+  -  dl_gridK_model_50 
+  -  dl_gridK_model_75 
+  -  dl_gridK_model_11 
+  -  dl_gridK_model_18 
+  -  dl_gridK_model_61 
+  -  dl_gridK_model_15 
+  -  dl_gridK_model_30 
+  -  dl_gridK_model_54 
+  -  dl_gridK_model_95 
+  -  dl_gridK_model_7 
+  -  dl_gridK_model_66 
+  -  dl_gridK_model_78 
+  -  dl_gridK_model_49 
+  -  dl_gridK_model_14 
+  -  dl_gridK_model_6 
+  -  dl_gridK_model_2 
+  -  dl_gridK_model_55 
+  -  dl_gridK_model_8 
+  -  dl_gridK_model_83 
+  -  dl_gridK_model_13 
+  -  dl_gridK_model_72 
+  -  dl_gridK_model_92 
+  -  dl_gridK_model_1 
+  -  dl_gridK_model_87 
+  -  dl_gridK_model_90 
+  -  dl_gridK_model_74 
+  -  dl_gridK_model_68 
+  -  dl_gridK_model_60 
+  -  dl_gridK_model_84 
+  -  dl_gridK_model_42 
+  -  dl_gridK_model_79 
+  -  dl_gridK_model_65 
+  -  dl_gridK_model_17 
+  -  dl_gridK_model_27 
+  -  dl_gridK_model_9 
+  -  dl_gridK_model_20 
+  -  dl_gridK_model_19 
+  -  dl_gridK_model_39 
+  -  dl_gridK_model_31 
+  -  dl_gridK_model_56 
+  -  dl_gridK_model_69 
+  -  dl_gridK_model_38 
+  -  dl_gridK_model_48 
+  -  dl_gridK_model_0 
+  -  dl_gridK_model_91 
+  -  dl_gridK_model_24 
+  -  dl_gridK_model_57 
+  -  dl_gridK_model_36 
+  -  dl_gridK_model_43 
+  -  dl_gridK_model_93 
+  -  dl_gridK_model_53 
+  -  dl_gridK_model_12 
+  -  dl_gridK_model_28 
+  -  dl_gridK_model_21 
+  -  dl_gridK_model_5 
+  -  dl_gridK_model_76 
+  -  dl_gridK_model_88 
+  -  dl_gridK_model_45 
+  -  dl_gridK_model_33 
+  -  dl_gridK_model_37 
+  -  dl_gridK_model_73 
+  -  dl_gridK_model_64 
+  -  dl_gridK_model_40 
+  -  dl_gridK_model_52 
+  -  dl_gridK_model_85 
+  -  dl_gridK_model_4 
+  -  dl_gridK_model_81 
+  -  dl_gridK_model_16 
+  -  dl_gridK_model_25 
+  -  dl_gridK_model_29 
+  -  dl_gridK_model_41 
+  -  dl_gridK_model_89 
+  -  dl_gridK_model_77 
+
+Number of failed models: 0 
+$model_id
+[1] "dl_gridK_model_34"
+
+$training_frame
+[1] "RTMP_sid_951a_70"
+
+$validation_frame
+[1] "RTMP_sid_951a_71"
+
+$nfolds
+[1] 5
+
+$keep_cross_validation_predictions
+[1] FALSE
+
+$keep_cross_validation_fold_assignment
+[1] FALSE
+
+$fold_assignment
+[1] "AUTO"
+
+$ignore_const_cols
+[1] TRUE
+
+$score_each_iteration
+[1] FALSE
+
+$balance_classes
+[1] FALSE
+
+$max_after_balance_size
+[1] 5
+
+$max_confusion_matrix_size
+[1] 20
+
+$max_hit_ratio_k
+[1] 0
+
+$overwrite_with_best_model
+[1] FALSE
+
+$use_all_factor_levels
+[1] TRUE
+
+$standardize
+[1] TRUE
+
+$activation
+[1] "RectifierWithDropout"
+
+$hidden
+[1] 32 32
+
+$epochs
+[1] 10.42593
+
+$train_samples_per_iteration
+[1] -2
+
+$target_ratio_comm_to_comp
+[1] 0.05
+
+$seed
+[1] 5.46815e+18
+
+$adaptive_rate
+[1] FALSE
+
+$rho
+[1] 0.99
+
+$epsilon
+[1] 1e-08
+
+$rate
+[1] 0.02
+
+$rate_annealing
+[1] 1e-08
+
+$rate_decay
+[1] 1
+
+$momentum_start
+[1] 0.5
+
+$momentum_ramp
+[1] 1e+07
+
+$momentum_stable
+[1] 0.9
+
+$nesterov_accelerated_gradient
+[1] TRUE
+
+$input_dropout_ratio
+[1] 0
+
+$l1
+[1] 1e-05
+
+$l2
+[1] 1e-05
+
+$max_w2
+[1] 10
+
+$initial_weight_distribution
+[1] "UniformAdaptive"
+
+$initial_weight_scale
+[1] 1
+
+$loss
+[1] "Automatic"
+
+$distribution
+[1] "AUTO"
+
+$quantile_alpha
+[1] 0.5
+
+$tweedie_power
+[1] 1.5
+
+$huber_alpha
+[1] 0.9
+
+$score_interval
+[1] 5
+
+$score_training_samples
+[1] 10000
+
+$score_validation_samples
+[1] 10000
+
+$score_duty_cycle
+[1] 0.025
+
+$classification_stop
+[1] 0
+
+$regression_stop
+[1] 1e-06
+
+$stopping_rounds
+[1] 0
+
+$stopping_metric
+[1] "AUTO"
+
+$stopping_tolerance
+[1] 0.01
+
+$max_runtime_secs
+[1] 0
+
+$score_validation_sampling
+[1] "Uniform"
+
+$diagnostics
+[1] TRUE
+
+$fast_mode
+[1] TRUE
+
+$force_load_balance
+[1] TRUE
+
+$variable_importances
+[1] TRUE
+
+$replicate_training_data
+[1] TRUE
+
+$single_node_mode
+[1] FALSE
+
+$shuffle_training_data
+[1] FALSE
+
+$missing_values_handling
+[1] "MeanImputation"
+
+$quiet_mode
+[1] FALSE
+
+$autoencoder
+[1] FALSE
+
+$sparse
+[1] FALSE
+
+$col_major
+[1] FALSE
+
+$average_activation
+[1] 0
+
+$sparsity_beta
+[1] 0
+
+$max_categorical_features
+[1] 2147483647
+
+$reproducible
+[1] FALSE
+
+$export_weights_and_biases
+[1] FALSE
+
+$mini_batch_size
+[1] 1
+
+$categorical_encoding
+[1] "AUTO"
+
+$elastic_averaging
+[1] FALSE
+
+$elastic_averaging_moving_rate
+[1] 0.9
+
+$elastic_averaging_regularization
+[1] 0.001
+
+$x
+  [1] "Week"                               "variable"                          
+  [3] "Depth"                              "Team.Opponent.QB.1.ovr"            
+  [5] "Team.Opponent.WR.1.ovr"             "Team.Opponent.WR.2.ovr"            
+  [7] "Team.Opponent.WR.3.ovr"             "Team.Opponent.RB.1.ovr"            
+  [9] "Team.Opponent.RB.2.ovr"             "Team.Opponent.OL.1.ovr"            
+ [11] "Team.Opponent.OL.2.ovr"             "Team.Opponent.OL.3.ovr"            
+ [13] "Team.Opponent.OL.4.ovr"             "Team.Opponent.OL.5.ovr"            
+ [15] "Team.Opponent.TE.1.ovr"             "Team.Opponent.DL.1.ovr"            
+ [17] "Team.Opponent.DL.2.ovr"             "Team.Opponent.DL.3.ovr"            
+ [19] "Team.Opponent.DL.4.ovr"             "Team.Opponent.LB.1.ovr"            
+ [21] "Team.Opponent.LB.2.ovr"             "Team.Opponent.LB.3.ovr"            
+ [23] "Team.Opponent.CB.1.ovr"             "Team.Opponent.CB.2.ovr"            
+ [25] "Team.Opponent.CB.3.ovr"             "Team.Opponent.FS.1.ovr"            
+ [27] "Team.Opponent.SS.1.ovr"             "Team.Opponent.K.1.ovr"             
+ [29] "Team.QB.1.ovr"                      "Team.WR.1.ovr"                     
+ [31] "Team.WR.2.ovr"                      "Team.WR.3.ovr"                     
+ [33] "Team.RB.1.ovr"                      "Team.RB.2.ovr"                     
+ [35] "Team.OL.1.ovr"                      "Team.OL.2.ovr"                     
+ [37] "Team.OL.3.ovr"                      "Team.OL.4.ovr"                     
+ [39] "Team.OL.5.ovr"                      "Team.TE.1.ovr"                     
+ [41] "Team.DL.1.ovr"                      "Team.DL.2.ovr"                     
+ [43] "Team.DL.3.ovr"                      "Team.DL.4.ovr"                     
+ [45] "Team.LB.1.ovr"                      "Team.LB.2.ovr"                     
+ [47] "Team.LB.3.ovr"                      "Team.CB.1.ovr"                     
+ [49] "Team.CB.2.ovr"                      "Team.CB.3.ovr"                     
+ [51] "Team.FS.1.ovr"                      "Team.SS.1.ovr"                     
+ [53] "Team.K.1.ovr"                       "Overall"                           
+ [55] "Defense.Team"                       "Defense.Opponent"                  
+ [57] "Offense.Team"                       "Offense.Opponent"                  
+ [59] "Core.Offense.Team"                  "Core.Offense.Opponent"             
+ [61] "Core.Defense.Team"                  "Core.Defense.Opponent"             
+ [63] "WRs.Team"                           "WRs.Opponent"                      
+ [65] "OL.Team"                            "OL.Opponent"                       
+ [67] "DL.Team"                            "DL.Opponent"                       
+ [69] "Secondary.Team"                     "Secondary.Opponent"                
+ [71] "Box.Team"                           "Box.Opponent"                      
+ [73] "LBs.Team"                           "LBs.Opponent"                      
+ [75] "Ss.Team"                            "Ss.Opponent"                       
+ [77] "CBs.Team"                           "CB.Opponent"                       
+ [79] "Matchup.All.Team"                   "Matchup.All.Opponent"              
+ [81] "Matchup.Cores.Team"                 "Matchup.Cores.Opponent"            
+ [83] "Matchup.QBRBDL.Team"                "Matchup.QBRBDL.Opponent"           
+ [85] "Matchup.QBWR1RB1FS1CB1LB1.Team"     "Matchup.QBWR1RB1FS1CB1LB1.Opponent"
+ [87] "Matchup.QBDL.Team"                  "Matchup.QBDL.Opponent"             
+ [89] "Matchup.RBDL.Team"                  "Matchup.RB1DL.Opponent"            
+ [91] "Matchup.RB12DL.Team"                "Matchup.RB2DL.Opponent"            
+ [93] "Matchup.OLDL.Team"                  "Matchup.OLDL.Opponent"             
+ [95] "Matchup.WRCB3.Team"                 "Matchup.WRCB3.Opponent"            
+ [97] "Matchup.WRCB2.Team"                 "Matchup.WRCB2.Opponent"            
+ [99] "Matchup.WRCB1.Team"                 "Matchup.WRCB1.Opponent"            
+
+$y
+[1] "FP"
+
+H2ORegressionMetrics: deeplearning
+** Reported on validation data. **
+** Metrics reported on full validation frame **
+
+MSE:  17.34068
+RMSE:  4.164214
+MAE:  3.3025
+RMSLE:  0.6256891
+Mean Residual Deviance :  17.34068
+

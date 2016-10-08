@@ -82,6 +82,9 @@ for(i in 1:length(matchups$Away)) {
   matchups$HomeAbr[i] = substring(matchups$Home[i],rev(gregexpr(' ',matchups$Home[i])[[1]])[1]+1)
 }
 
+save(matchups,file='matchups.Rda')
+
+
 matchups.melt = melt(matchups[,c('Year','Week','AwayAbr','HomeAbr')], c('Year','Week'), stringsAsFactors=FALSE)
 #matchups.melt[,2] = sapply(matchups.melt[,2], as.character)
 matchups.melt[,3] = sapply(matchups.melt[,3], as.character)
